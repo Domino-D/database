@@ -1,0 +1,22 @@
+.block{
+	margin:0 auto;
+	width:1000px;
+}
+.bb{
+	background-color:#f0f0f0;
+	padding:50px 0;
+	border-radius:65px;
+    box-shadow: 3px 3px 3px;  
+}
+a{
+	margin:40px;
+	font-family:arial;
+	font-size:17px;
+	line-height:25px;
+	font-style: italic;
+}
+p{
+    margin:0px 0px 20px 40px;
+    font-family:arial;
+    font-size:25px;
+}

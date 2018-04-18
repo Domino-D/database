@@ -1,0 +1,104 @@
+body{
+    margin:0px;
+}
+.block{
+	 margin:0 auto;
+	 width:1000px;
+     box-shadow:2px 7px 15px;
+}
+.header{
+	 height:80px;
+	 background:linear-gradient(#9d9d9d,#ffffff 80%);
+}
+.header-title{
+	 float:left;
+	 font-family:arial;
+	 font-size:18px;
+	 text-shadow:2px 2px 2px #8e8e8e;
+	 line-height:2px;
+	 padding-left:100px;
+	 list-style:none;
+}
+.header-logo{
+	 float:right;
+	 padding-right:80px;
+}
+.header-logo img{
+	height: 80px;
+	float:right;
+}
+.drowing{
+    margin:0 auto;
+}
+.order-code{
+	 padding-left:60px;
+	 padding-top:20px;
+	 font-family:arial;
+	 font-size:20px;
+	 text-shadow:1px 1px 2px #8e8e8e;
+	 text-decoration:none;
+	 height:50px;
+}
+.order-code a{
+	text-decoration:none;
+}
+.order-code img{
+    height:15px;
+}
+.select{
+    clear: both;
+	margin-left:50px;
+    text-align:left;
+	font-family:arial;
+	font-size:18px;
+	font-weight: 600;
+	text-shadow:2px 1px 2px #8e8e8e;
+}
+.select img{
+	margin-left: 0px;
+}
+.bottom{
+	padding:0px 10px;
+	margin-top:10px;
+    height:40px;
+}
+.bottom img{
+	height:40px;
+	float:left;
+	margin-left:40px;
+}
+.bottom-item{
+	 width:600px;
+	 float:right;
+	 text-align:right;
+	 font-size:12px;
+	 font-style:oblique;
+}
+.button1,.button3{
+	 border:none;
+	 background-color:#ffffff;
+	 font-style:oblique;
+	 font-size:18px;
+	 font-weight:800;
+	 text-shadow:2px 1px 2px #8e8e8e;
+	 margin:25px;
+	 text-decoration: none;
+}
+.ps{
+	color:rgb(0, 102, 255);
+	cursor:pointer;
+}
+.pps{
+	font-size: 15px;
+	font-family: 'Times New Roman';
+	font-style: italic;
+	display: none;
+}
+hr{
+	border-top:3px dotted #8e8e8e;
+}
+
+
+
+
+/*jamie yang*/
