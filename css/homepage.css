@@ -1,0 +1,265 @@
+﻿body{
+	margin:0px;
+	background-color: #f0f0f0;
+}
+.block{
+	margin:0px auto;
+	width:1000px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 20px #6a6a6a;
+}
+.head{
+    font-family:arial;
+	font-size:35px;
+	font-weight:800;
+	padding:0 80px;
+	height:45px;
+	text-shadow:2px 2px 2px #8e8e8e;
+}
+.head img{
+	height:100%;
+	float:left;
+}
+.head a{
+	display:block;
+	float:right;
+	width:520px;
+}
+#focuspic{
+	width:720px;
+	height:400px;
+	margin:20px auto;
+    position:relative;
+	overflow:hidden;
+}
+#lists img{
+	width:720px;
+	height:400px;
+	float:left;
+	margin-left:0px;
+}
+#lists{
+	width:3600px;
+	height:400px;
+    position:absolute;
+    z-index:1;
+}
+.turn{
+    width: 40px;
+    height: 80px;
+    color: #ffffff;
+    background: #acacac;
+    line-height: 80px;
+    text-align: center;
+    border-radius:10px;
+    font-size: 36px;
+    font-weight: 800;
+    opacity: 0.5;
+    position: absolute;
+    top: 160px;
+    display: none;
+    z-index: 2;
+    cursor: pointer;
+}
+#pre{
+    float:left;
+}
+#next{
+    margin-left:680px;
+}
+.turn:hover{opacity: 0.8;}
+#focuspic:hover .turn{display: block;}
+.valvesnav{
+	height:587px;
+	width:1000px;
+	overflow:hidden;
+}
+.valvetitle,.pumptitle,.elsetitle{
+	height:55px;
+	padding:15px 0px 0px 60px;
+	border-radius:50px;
+	margin-top:10px;
+	font-family:"微软雅黑";
+	font-size:30px;
+	font-weight:600;
+	font-style:oblique;
+	text-shadow:1px 1px 2px #8e8e8e;
+	box-shadow: 0px -5px 4px #8e8e8e;
+}
+.valveleft,.valvemiddle,.valveright{
+	float:left;
+	width:332px;
+}
+.valveleft{
+    border-right:solid 2px #f0f0f0;
+}
+.valveright{
+	border-left:solid 2px #f0f0f0;
+}
+.valveleft p,.valvemiddle p,.valveright p,.pumpleft p,.pumpright p,.elseleft p,.elseright p{
+	display:block;
+	font-size:25px;
+	font-weight:600;
+	font-family:arial;
+	text-align:center;
+	height:45px;
+	margin:0px;
+	text-shadow:1px 0 2px #6c6c6c;
+}
+.valveleft img,.valvemiddle img,.valveright img{
+	height:200px;
+}
+.valveleft img{
+	padding:0px 18px;
+}
+.valvemiddle img,.valveright img{
+	padding:0px 75px;
+}
+.valveleft ul,.valvemiddle ul,.valveright ul{
+	padding:0px 25px;
+	margin:0px;
+	line-height:32px;
+	text-decoration:none;
+	list-style-type:none;
+}
+.valveleft a,.valvemiddle a,.valveright a{
+	text-decoration:none;
+	display:block;
+	font-family:arial;
+	font-size:16px;
+    padding-left:10px;
+}
+.valveleft a,.valvemiddle a,.valveright a,.pumpleft a,.pumpright a,.elseleft a,.elseright a,.navigator a{
+	color:#000000;
+	font-weight:600;
+	font-size:16px;
+	text-decoration:none;
+	font-family:arial;
+	font-size:16px;
+}
+.valveleft a:hover,.valvemiddle a:hover,.valveright a:hover,.pumpleft a:hover,.pumpright a:hover,.elseleft a:hover,.elseright a:hover,.navigator a:hover{
+	font-size:16px;
+	font-weight:600;
+	color:#ffffff;
+	background-color:#d0d0d0;
+    box-shadow:2px 1px 2px #acacac;
+	text-shadow:1px 1px 2px #acacac;
+}
+.more a{
+	font-family:arial;
+	font-size:14px;
+	font-weight:600;
+	font-style:oblique;
+	margin:8px 50px;
+	border-radius:5px;
+	border:solid 1px #f0f0f0;
+	background-color:#cdcdcd;
+	color:#ffffff;
+}
+.pumpsnav{
+	height:460px;
+}
+.pumpleft,.pumpright{
+	float:left;
+	width:446px;
+	padding:0px 25px;
+	margin-top:10px;
+}
+.pumpleft{
+	border-right:solid 2px #f0f0f0;
+}
+.pumpleft img,.pumpright img{
+	height:150px;
+	padding:0px 150px;
+}
+.pumpleft a,.pumpright a{
+	display:block;
+	width:107px;
+	height:30px;
+	padding-top:12px;
+	text-align:center;
+}
+.elsenav{
+	height:220px;
+}
+.elseleft,.elseright{
+	float:left;
+	width:446px;
+	padding:0px 25px;
+	margin-top:10px;
+}
+.elseleft{
+	border-right:solid 2px #f0f0f0;
+}
+.elseleft a,.elseright a{
+	display:block;
+	height:30px;
+	float:left;
+	padding:10px 0px 0px 10px;
+}
+.elseleft a{
+	width:345px;
+}
+.elseright a{
+	width:200px;
+}
+.end{
+	height:55px;
+	background:linear-gradient(#ffffff,#cdcdcd);
+}
+.bottom-item{
+	width:600px;
+	float:right;
+	text-align:right;
+	margin-right:50px;
+	padding-top:30px;
+	font-size:10px;
+	font-style:oblique;
+}
+.button1,.button2{
+	background-color:#cdcdcd;
+	color:#ffffff;
+	font-family:arial;
+	font-style:oblique;
+	font-size:15px;
+	font-weight:600;
+	margin-right: 25px;
+	padding:0px 10px;
+	border:solid 1px #cdcdcd;
+	border-radius:15px;
+	text-decoration: none;
+}
+.more a:hover,.end a:hover{
+	background-color:#ffffff;
+	color:#000000;
+	cursor:pointer;
+}
+.navigator{
+	z-index: 5;
+	position: fixed;
+	top: 80px;
+	left: -190px;
+	font-size: 16px;
+	font-family: arial;
+	background-color: #ffffff;
+	width: 200px;
+	border-radius: 0px 20px 20px 0px;
+	box-shadow: 3px 3px 10px #303030;
+}
+.navigator ul{
+	padding: 0px;
+	list-style: none;
+	font-style: italic;
+	line-height: 30px;
+	text-decoration: none;
+}
+.navigator p{
+	font-size: 18px;
+	font-weight: 800;
+	text-align: center;
+}
+.navigator a{
+	display: block;
+	width: 170px;
+	padding-left: 10px;
+}
